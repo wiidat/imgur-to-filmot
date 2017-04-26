@@ -1,9 +1,12 @@
 ﻿// ==UserScript==
 // @name           imgur to filmot
-// @version		   1.0
+// @version        1.0
+// @namespace      wiidat
 // @description    replace imgur urls with filmot.org
 // @include        *://*/*
-// @namespace      wiidat
+// @homepage       https://github.com/wiidat/imgur-to-filmot
+// @updateURL      https://raw.githubusercontent.com/wiidat/imgur-to-filmot/master/imgur_to_filmot.user.js	
+// @downloadURL    https://raw.githubusercontent.com/wiidat/imgur-to-filmot/master/imgur_to_filmot.user.js	
 // ==/UserScript==
 
 var a = document.getElementsByTagName('a');
