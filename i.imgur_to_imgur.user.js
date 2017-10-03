@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           i.imgur to imgur
-// @version        1.0.1
+// @version        1.0.2
 // @namespace      wiidat
 // @description    replace i.imgur urls with imgur
 // @include        *://*/*
@@ -27,15 +27,15 @@ for (i=0;i<p.length;i++) {
     if (res!=null) {
         p[i].src = 'https://imgur.com/' + res[1];
     }
-//}
-//
-//var url = document.URL;
-//reg = /imgur\.com\/([^.]+)?/;
-//res = reg.exec(url);
-//
-//if (res!=null) {
-//    if (res[1] != null)
-//    	location.replace("https://imgur.com/" + res[1]);
-//    else
-//        location.replace("https://imgur.com/");
-//}
+}
+
+var url = document.URL;
+reg = /imgur\.com\/([^.]+)?/;
+res = reg.exec(url);
+
+if (res!=null) {
+    if (res[1] != null)
+    	location.replace("https://imgur.com/" + res[1]);
+    else
+        location.replace("https://imgur.com/");
+}
