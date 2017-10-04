@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name           i.imgur to imgur
-// @version        1.0.2
+// @version        1.1
 // @namespace      wiidat
 // @description    replace i.imgur urls with imgur
-// @include        *://*/*
+// @include        *://i.imgur.com/*
+// @exclude        *://imgur.com/*
 // @homepage       https://github.com/wiidat/imgur-to-filmot
 // @updateURL      https://raw.githubusercontent.com/wiidat/imgur-to-filmot/master/i.imgur_to_imgur.user.js	
 // @downloadURL    https://raw.githubusercontent.com/wiidat/imgur-to-filmot/master/i.imgur_to_imgur.user.js	
